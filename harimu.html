@@ -5,23 +5,23 @@
   name='viewport' />
 <meta content='IE=edge' http-equiv='X-UA-Compatible' />
 
-<link rel="icon" type="image/svg+xml" href="https://feeldreams.github.io/"> 
-<link rel="apple-touch-icon" href="https://feeldreams.github.io/">
+<link rel="icon" type="image/svg+xml" href="https://feeldreams.github.io/main-icon.png"> 
+<link rel="apple-touch-icon" href="https://feeldreams.github.io/main-icon.png">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
 <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 <link rel="stylesheet" href="https://htmlku.com/harimu/play/style.css">
 
 <head>
-  <title>HTML buat Kamu </title>
+  <title>Happy birsday</title>
   <meta name="description" content="Buka bentar yaa.. HTML Feeldream Repl Co">
   <!-- 
-  Made with love by Rayys!
+  Made with rama!
   
-     Blog: feeldream.id
-     Instagram: @rayyarrr
-     TikTok: @feelthisray
+     Blog: rama.id
+     Instagram: @rama.bl01
+     TikTok: @gak punya
      
-  Thanks to all <3
+  intinya berjuang dengan codingan yang error 
 -->
 </head>
 
@@ -68,23 +68,23 @@
 
         <!-- Pesan -->
         <p><b><br>
-            <span>Hai kamu 🤭❤️</span>
+            <span>Hai Diah</span>
           </b></p>
 
-          <p><b><br>
-            <span>Aku Cuma Mau<br>Bilang Nih 😆</span>
+        <p><b><br>
+            <span>Aku Cuma Mau<br>Bilang Nih </span>
           </b></p>
 
-          <p><b><br>
-            <span>Ciyee yang Hari Ini Ultah 😜</span>
+        <p><b><br>
+            <span>Ciyee yang Hari Ini Ultah </span>
           </b></p>
 
-          <p><b><br>
+       <p><b><br>
             <span class="ft">Selamat Ulang Tahun! 🥳</span>
           </b></p>
 
-          <p><b><br>
-            <span>Moga Panjang Umur<br>dan Sehat Selalu yaa 🥰</span>
+        <p><b><br>
+            <span>Moga Panjang Umur<br>dan Sehat Selalu yaa </span>
           </b></p>
 
       </div>
@@ -93,8 +93,8 @@
     <!-- Edit Pesan Akhir di Sini -->
     <div>
       <blockquote id='bq'>
-        <p id="teksnim">Happy Level Up Day! 🥳</p>
-        <p id="kalimat"><span id="klganti"><b>Canda yaa wkwk 🤣</b><br><br></span>Intinya semoga di hari bertambahnya<br>usia kamu ini, kamu bisa menjadi<br>pribadi yang lebih baik lagi dan jangan<br>lupa semangat terus buat kejar semua<br>keinginan kamu yaa.. 🥳<br><br><span class="ft">Wish You All The Best ✨</span></p>
+        <p id="teksnim">Happy birsday! 🥳</p>
+        <p id="kalimat"><span id="klganti"><b>Canda yaa wkwk </b><br><br></span>Intinya semoga di hari bertambahnya<br>usia kamu ini, kamu bisa menjadi<br>pribadi yang lebih baik lagi dan jangan<br>lupa semangat terus buat kejar semua<br>keinginan kamu yaa.. 🥳<br><br><span class="ft">Wish You All The Best ✨</span></p>
       </blockquote>
     </div>
 
@@ -113,7 +113,7 @@
       if (poinjwb == 1) {
         katakata = kalimat.innerHTML; kalimat.innerHTML = "";
       } else {
-        klganti.innerHTML = "Udah ah segitu aja 🤣<br><br>"; katakata = kalimat.innerHTML; kalimat.innerHTML = "";
+        klganti.innerHTML = "Udah ah segitu aja <br><br>"; katakata = kalimat.innerHTML; kalimat.innerHTML = "";
       }
       Content.style = "opacity:1;margin-top:7vh"; fotostiker.style = "display:none"; pergeseran.style = "display:none"; Tombol.style = ""; bq.style = "position:relative;opacity:1;visibility:visible;margin-top:20px;transform: scale(1);";
       setTimeout(kalimatakhir, 200); ftganti = 0; fthilang();
@@ -123,21 +123,21 @@
     tomnegatif = "Gamau";
     async function aksibalas() {
       var { isConfirmed: prtanya } = await swals.fire({
-        title: 'Mau Kado Gak Nih? 🤭❤️',
+        title: 'Mau Kado Gak Nih? ',
         imageUrl: '' + fotostikerPopup.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif, cancelButtonColor: '#FF0000',
       });
       if (prtanya) {
         await swalst.fire({
-          title: 'Tapi Boong! 🤣',
-          html: 'Gajadi ngasih kado ah 😜❤️',
+          title: 'Tapi Boong! ',
+          html: 'Gajadi ngasih kado ah ',
           imageUrl: '' 
         });
         poinjwb = 1;
       } else {
         await swals.fire({
           title: 'Yaaahh!',
-          html: 'Yaudah kalo gamau 😜❤️',
-          imageUrl: '' ,
+          html: 'Yaudah kalo gamau ',
+          imageUrl: ''
         });
         poinjwb = 2;
       }
